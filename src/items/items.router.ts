@@ -1,9 +1,7 @@
 /**
  * Required External Modules and Interfaces
  */
-import express, { Request, Response } from "express";
-import * as ItemService from "./services/items.service";
-import { BaseItem, Item } from "./models/item.interface";
+import express from "express";
 
 import * as ItemsController from "./controllers/items.controller";
 
